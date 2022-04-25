@@ -4,7 +4,7 @@ name: next_runtime.conf readme
 file_version: 1.0.2
 app_version: 0.8.2-0
 file_blobs:
-  next_runtime.conf: 7e01f910090d1471734dc70e83cad1a10e83da5e
+  next_runtime.conf: b88692e4ca73283e87d1190a90d4e18211b194aa
 ---
 
 # System Fields:
@@ -13,7 +13,7 @@ file_blobs:
 ```conf
 🟩 1      system:
 ⬜ 2        daemon-port: @DAEMON_PORT@
-⬜ 3        daemon-host: 0.0.0.0
+⬜ 3        daemon-host: 0.0.0.1
 ⬜ 4        generation: gen1
 ```
 
@@ -24,7 +24,7 @@ allows choosing the daemon's port and ip address
 ### 📄 next_runtime.conf
 ```conf
 🟩 2        daemon-port: @DAEMON_PORT@
-🟩 3        daemon-host: 0.0.0.0
+🟩 3        daemon-host: 0.0.0.1
 ⬜ 4        generation: gen1
 ⬜ 5      
 ⬜ 6      daemon:
@@ -38,7 +38,7 @@ allows choosing the associated hw generation
 ```conf
 ⬜ 1      system:
 ⬜ 2        daemon-port: @DAEMON_PORT@
-⬜ 3        daemon-host: 0.0.0.0
+⬜ 3        daemon-host: 0.0.0.1
 🟩 4        generation: gen1
 ⬜ 5      
 ⬜ 6      daemon:
